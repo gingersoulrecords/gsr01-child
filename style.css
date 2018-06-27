@@ -1,0 +1,48 @@
+/*
+Theme Name: GSR01 Child
+Theme URI: https://gingersoulrecords.com
+description: >-
+  GSRO1 Child Theme
+Author: Dave Bloom
+Author URI: https://gingersoulrecords.com
+Template: gsr01
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gsr01-child
+*/
+
+.fl-row.active{
+	border:10px solid red;
+}
+
+/*
+.fl-row{
+	border:3px solid red;
+}
+*/
+
+.soulscroller {
+    background: black;
+    width: 50px;
+    position: fixed;
+    right: 5vw;
+    bottom: 50px;
+    z-index: 99;
+    text-align: center;
+    cursor: pointer;
+}
+
+.soulscroller-up {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.soulscroller-down {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
