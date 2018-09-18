@@ -25,7 +25,7 @@
 		return jQuery(this).outerHeight() != 0;
 	});
 	
-	console.log(scrollSelector);
+	//console.log(scrollSelector);
 
 	window.scrollSections = [];
 	window.reverseScrollSections = [];
@@ -63,7 +63,7 @@
 	})
 	
 	
-	console.log(window.reverseScrollSections);
+	//console.log(window.reverseScrollSections);
 
 	var scrollTween = function scrollTweenFunction(theIndex){
 				TweenMax.to( window, .5, {

@@ -12,6 +12,24 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: gsr01-child
 */
 
+
+.fl-builder--menu > button{order:0}
+
+.fl-builder--menu > button[data-view="columns"] {order: 0;}
+.fl-builder--menu > button[data-view="backgroundbanners"] {order: 1;}
+.fl-builder--menu > button[data-view="textbanners"] {order: 2;}
+.fl-builder--menu > button[data-view="textimagebanners"] {order: 3;}
+.fl-builder--menu > button[data-view="backgroundmultiples"] {order: 4;}
+.fl-builder--menu > button[data-view="textmultiples"] {order: 5;}
+.fl-builder--menu > button[data-view="imagemultiples"] {order: 6;}
+.fl-builder--menu > button[data-view="textimagemultiples"] {order: 7;}
+.fl-builder--menu > button[data-view="postloops"] {order: 8;}
+.fl-builder--menu > button[data-view="carousels"] {order: 9;}
+.fl-builder--menu > button[data-view="combinations"] {order: 10;}
+.fl-builder--menu > button[data-view="footers"] {order: 11;}
+.fl-builder--menu > button[data-view="navigationsystems"] {order: 12;}
+
+/*
 .fl-row.active{
 	border:10px solid red;
 }
@@ -98,3 +116,4 @@ Text Domain: gsr01-child
     flex-direction: column;
     justify-content: center;
 }
+*/
